@@ -11,6 +11,8 @@
   justify-content: center;
   align-items: center;
   border-bottom: 2px solid grey;
+  border-top: 2px solid grey;
+  border-right: 2px solid grey;
   color: grey;
 }
 
@@ -18,3 +20,7 @@
   color: black;
   border-bottom: 2px solid black;
 }
+
+.productState:nth-child(3){
+  border-right: none;
+};

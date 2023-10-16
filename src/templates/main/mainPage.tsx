@@ -12,7 +12,7 @@ import Navbar from '@/components/navbar';
 export default async function MainPage() {
   const res: AXIOSResponse<IProduct[]> = await getProducts();
   const data = res.statusCode === 200 ? res.data : [];
-
+  
   return (
     <div id="mainPage">
       <header>
